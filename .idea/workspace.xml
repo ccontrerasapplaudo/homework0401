@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing exercise 2 with methods &quot;findelementUsingText&quot;, search an element using LinkText command. And implementing &quot;findelementUsingXpath&quot;, seach an element using Xpath">
+    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing exercise 2 with methods &quot;findelementUsingCSS&quot;, search an element using CSS selector. And implementing &quot;ClickUsingXpath&quot;, press left click on an element with xpath selector">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exercise2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClass.java" afterDir="false" />
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661760637906</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementing exercise 2 with methods &quot;findelementUsingCSS&quot;, search an element using CSS selector. And implementing &quot;ClickUsingXpath&quot;, press left click on an element with xpath selector">
+      <created>1661761813700</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661761813700</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +150,7 @@
     <MESSAGE value="Implementing &quot;compareURL&quot;: compares the actual URL with some String value. And &quot;closeBrowser&quot;: close the actual browser window" />
     <MESSAGE value="Implementing exercise1 test on chrome web browser" />
     <MESSAGE value="Implementing exercise 2 with methods &quot;findelementUsingText&quot;, search an element using LinkText command. And implementing &quot;findelementUsingXpath&quot;, seach an element using Xpath" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing exercise 2 with methods &quot;findelementUsingText&quot;, search an element using LinkText command. And implementing &quot;findelementUsingXpath&quot;, seach an element using Xpath" />
+    <MESSAGE value="Implementing exercise 2 with methods &quot;findelementUsingCSS&quot;, search an element using CSS selector. And implementing &quot;ClickUsingXpath&quot;, press left click on an element with xpath selector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing exercise 2 with methods &quot;findelementUsingCSS&quot;, search an element using CSS selector. And implementing &quot;ClickUsingXpath&quot;, press left click on an element with xpath selector" />
   </component>
 </project>

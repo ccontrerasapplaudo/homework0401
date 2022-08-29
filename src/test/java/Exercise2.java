@@ -76,6 +76,40 @@ public class Exercise2 {
         codePause();
     }
 
+    public void findElementUsingID(String usedID){
+        List<WebElement> elementsList = driver.findElements(By.id(usedID));
+        if(elementsList.isEmpty()){
+            System.out.println(browserName+": Element not found using ID");
+        }
+        else{
+            System.out.println(browserName+": Element found using ID");
+        }
+        codePause();
+    }
+
+    public void extractTextUsingID(String usedID){
+        System.out.println(browserName+": Text of element: \n"+driver.findElement(By.id(usedID)).getText());
+        codePause();
+    }
+
+    public void refreshPage(){
+        System.out.println(browserName+": Refresh page");
+        driver.navigate().refresh();
+        codePause();
+    }
+
+    public void firstUsingXpath(String usedXpath){
+        String firstOne = driver.findElement(By.xpath(usedXpath)).getAttribute("innerText");
+        System.out.println(browserName+": Text of first Element "+firstOne.replaceAll(" ", ""));
+        codePause();
+    }
+
+    public void lastUsingXpath(String usedXpath){
+        String lastOne = driver.findElement(By.xpath(usedXpath)).getAttribute("innerText");
+        System.out.println(browserName+": Text of last Element "+lastOne.replaceAll(" ", ""));
+        codePause();
+    }
+
     public void closeBrowser(){
         codePause();
         driver.close();

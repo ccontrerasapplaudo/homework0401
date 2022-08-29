@@ -71,7 +71,11 @@ public class MainClass {
         exercise2.findElementUsingXpath("//a[@class='blockbestsellers']");
         exercise2.findElementUsingCSS("a.blockbestsellers");
         exercise2.clickUsingXpath("//a[@class='blockbestsellers']");
-
+        exercise2.findElementUsingID("block_top_menu");
+        exercise2.extractTextUsingID("block_top_menu");
+        exercise2.refreshPage();
+        exercise2.firstUsingXpath("(//span[@class=\"price product-price\"])[1]");
+        exercise2.lastUsingXpath("(//span[@class=\"price product-price\"])[last()]");
         exercise2.closeBrowser();
 
         System.out.println("\n***** Exercise 2 Completed! *****\n");

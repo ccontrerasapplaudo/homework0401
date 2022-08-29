@@ -18,6 +18,7 @@ public class MainClass {
         WebDriver firefoxDriver = new FirefoxDriver();
 
         System.out.println("\n***** Executing Exercise 1: *****\n");
+
         //Create exercise1 object and sending firefoxDriver
         Exercise1 exercise1 = new Exercise1(firefoxDriver,"Firefox");
         //Starts the Firefox browser and navigates to http://opencart.abstracta.us/index.php?route=common/home
@@ -26,6 +27,10 @@ public class MainClass {
         exercise1.verifyPageTitle("My Store");
         // Refresh page
         exercise1.refreshPage();
+        // Navigate to google.com.sv
+        exercise1.navigateTo("https://google.com.sv");
+        // Return to home page
+        exercise1.returnHomePage();
 
         System.out.println("\n***** Exercise 1 Completed! *****\n");
 

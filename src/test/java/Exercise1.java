@@ -1,5 +1,4 @@
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import java.lang.Thread;
 
@@ -51,6 +50,18 @@ public class Exercise1 {
     public void refreshPage(){
         System.out.println(browserName+": Refresh page");
         driver.navigate().refresh();
+        codePause();
+    }
+
+    public void returnHomePage(){
+        System.out.println(browserName+": returning to homepage");
+        driver.navigate().back();
+        codePause();
+    }
+
+    public void navigateTo(String navigatingTo){
+        System.out.println(browserName+": navigating to "+navigatingTo);
+        driver.navigate().to(navigatingTo);
         codePause();
     }
 

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing exercise 2 with methods &quot;findelementUsingCSS&quot;, search an element using CSS selector. And implementing &quot;ClickUsingXpath&quot;, press left click on an element with xpath selector">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exercise2.java" afterDir="false" />
+    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing exercise 2 with methods &quot;firstUsingXpath&quot;, select the first element of multiple elements using Xpath selector. And implementing &quot;lastUsingXpath&quot;, select the lastone element of multiple elements using Xpath selector">
       <change beforePath="$PROJECT_DIR$/src/test/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661761813700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implementing exercise 2 with methods &quot;firstUsingXpath&quot;, select the first element of multiple elements using Xpath selector. And implementing &quot;lastUsingXpath&quot;, select the lastone element of multiple elements using Xpath selector">
+      <created>1661764672824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661764672824</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +156,7 @@
     <MESSAGE value="Implementing exercise1 test on chrome web browser" />
     <MESSAGE value="Implementing exercise 2 with methods &quot;findelementUsingText&quot;, search an element using LinkText command. And implementing &quot;findelementUsingXpath&quot;, seach an element using Xpath" />
     <MESSAGE value="Implementing exercise 2 with methods &quot;findelementUsingCSS&quot;, search an element using CSS selector. And implementing &quot;ClickUsingXpath&quot;, press left click on an element with xpath selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing exercise 2 with methods &quot;findelementUsingCSS&quot;, search an element using CSS selector. And implementing &quot;ClickUsingXpath&quot;, press left click on an element with xpath selector" />
+    <MESSAGE value="Implementing exercise 2 with methods &quot;firstUsingXpath&quot;, select the first element of multiple elements using Xpath selector. And implementing &quot;lastUsingXpath&quot;, select the lastone element of multiple elements using Xpath selector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing exercise 2 with methods &quot;firstUsingXpath&quot;, select the first element of multiple elements using Xpath selector. And implementing &quot;lastUsingXpath&quot;, select the lastone element of multiple elements using Xpath selector" />
   </component>
 </project>

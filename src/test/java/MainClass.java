@@ -22,42 +22,42 @@ public class MainClass {
         System.out.println("\n***** Executing Exercise 1: *****\n");
 
         WebDriver firefoxDriver = new FirefoxDriver();
-//        Exercise1 exercise1 = new Exercise1(firefoxDriver,"Firefox");
-//        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
-//        exercise1.verifyPageTitle("My Store");
-//        exercise1.refreshPage();
-//        exercise1.navigateTo("https://google.com.sv");
-//        exercise1.returnHomePage();
-//        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
-//        exercise1.closeBrowser();
+        Exercise1 exercise1 = new Exercise1(firefoxDriver,"Firefox");
+        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.verifyPageTitle("My Store");
+        exercise1.refreshPage();
+        exercise1.navigateTo("https://google.com.sv");
+        exercise1.returnHomePage();
+        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.closeBrowser();
 
         System.out.println();
 
         // Implementing exercise 1 testing on google chrome
-//        WebDriver chromeDriver = new ChromeDriver();
-//        exercise1.setDriver(chromeDriver);
-//        exercise1.setBrowserName("Chrome");
-//        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
-//        exercise1.verifyPageTitle("My Store");
-//        exercise1.refreshPage();
-//        exercise1.navigateTo("https://google.com.sv");
-//        exercise1.returnHomePage();
-//        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
-//        exercise1.closeBrowser();
+        WebDriver chromeDriver = new ChromeDriver();
+        exercise1.setDriver(chromeDriver);
+        exercise1.setBrowserName("Chrome");
+        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.verifyPageTitle("My Store");
+        exercise1.refreshPage();
+        exercise1.navigateTo("https://google.com.sv");
+        exercise1.returnHomePage();
+        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.closeBrowser();
 
         System.out.println();
 
         // Implementing exercise 1 testing on microsoft edge
-//        WebDriver edgeDriver = new EdgeDriver();
-//        exercise1.setDriver(edgeDriver);
-//        exercise1.setBrowserName("Edge");
-//        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
-//        exercise1.verifyPageTitle("My Store");
-//        exercise1.refreshPage();
-//        exercise1.navigateTo("https://google.com.sv");
-//        exercise1.returnHomePage();
-//        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
-//        exercise1.closeBrowser();
+        WebDriver edgeDriver = new EdgeDriver();
+        exercise1.setDriver(edgeDriver);
+        exercise1.setBrowserName("Edge");
+        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.verifyPageTitle("My Store");
+        exercise1.refreshPage();
+        exercise1.navigateTo("https://google.com.sv");
+        exercise1.returnHomePage();
+        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.closeBrowser();
 
         System.out.println("\n***** Exercise 1 Completed! *****\n");
 
@@ -65,7 +65,45 @@ public class MainClass {
 
         System.out.println("\n***** Executing Exercise 2: *****\n");
 
-        Exercise2 exercise2 = new Exercise2(firefoxDriver,"Firefox");
+        // Implementing exercise 2 testing on Firefox
+        WebDriver firefoxDriver2 = new FirefoxDriver();
+        Exercise2 exercise2 = new Exercise2(firefoxDriver2,"Firefox");
+        exercise2.browserStart("http://automationpractice.com/index.php");
+        exercise2.findElementUsingText("BEST SELLERS");
+        exercise2.findElementUsingXpath("//a[@class='blockbestsellers']");
+        exercise2.findElementUsingCSS("a.blockbestsellers");
+        exercise2.clickUsingXpath("//a[@class='blockbestsellers']");
+        exercise2.findElementUsingID("block_top_menu");
+        exercise2.extractTextUsingID("block_top_menu");
+        exercise2.refreshPage();
+        exercise2.firstUsingXpath("(//span[@class=\"price product-price\"])[1]");
+        exercise2.lastUsingXpath("(//span[@class=\"price product-price\"])[last()]");
+        exercise2.closeBrowser();
+
+        System.out.println();
+
+        // Implementing exercise 2 testing on google chrome
+        WebDriver chromeDriver2 = new ChromeDriver();
+        exercise2.setDriver(chromeDriver2);
+        exercise2.setBrowserName("Chrome");
+        exercise2.browserStart("http://automationpractice.com/index.php");
+        exercise2.findElementUsingText("BEST SELLERS");
+        exercise2.findElementUsingXpath("//a[@class='blockbestsellers']");
+        exercise2.findElementUsingCSS("a.blockbestsellers");
+        exercise2.clickUsingXpath("//a[@class='blockbestsellers']");
+        exercise2.findElementUsingID("block_top_menu");
+        exercise2.extractTextUsingID("block_top_menu");
+        exercise2.refreshPage();
+        exercise2.firstUsingXpath("(//span[@class=\"price product-price\"])[1]");
+        exercise2.lastUsingXpath("(//span[@class=\"price product-price\"])[last()]");
+        exercise2.closeBrowser();
+
+        System.out.println();
+
+        // Implementing exercise 2 testing on microsoft edge
+        WebDriver edgeDriver2 = new EdgeDriver();
+        exercise2.setDriver(edgeDriver2);
+        exercise2.setBrowserName("Edge");
         exercise2.browserStart("http://automationpractice.com/index.php");
         exercise2.findElementUsingText("BEST SELLERS");
         exercise2.findElementUsingXpath("//a[@class='blockbestsellers']");

@@ -54,15 +54,32 @@ public class Exercise1 {
     }
 
     public void returnHomePage(){
-        System.out.println(browserName+": returning to homepage");
+        System.out.println(browserName+": Returning to homepage");
         driver.navigate().back();
         codePause();
     }
 
     public void navigateTo(String navigatingTo){
-        System.out.println(browserName+": navigating to "+navigatingTo);
+        System.out.println(browserName+": Navigating to "+navigatingTo);
         driver.navigate().to(navigatingTo);
         codePause();
+    }
+
+    public void compareURL(String compareURL){
+        System.out.println(browserName+": Comparing page URL");
+
+        if(driver.getCurrentUrl().contains(compareURL)){
+            System.out.println(browserName+": The URL's are the same");
+        }
+        else{
+            System.out.println(browserName+": The URL's are not the same");
+        }
+        codePause();
+    }
+
+    public void closeBrowser(){
+        codePause();
+        driver.close();
     }
 
     public void codePause(){

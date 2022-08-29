@@ -31,6 +31,10 @@ public class MainClass {
         exercise1.navigateTo("https://google.com.sv");
         // Return to home page
         exercise1.returnHomePage();
+        // Compare actual URL with http://opencart.abstracta.us/index.php?route=common/home
+        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+        // Closes the browser window
+        exercise1.closeBrowser();
 
         System.out.println("\n***** Exercise 1 Completed! *****\n");
 

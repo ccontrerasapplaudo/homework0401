@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exercise1.java" afterDir="false" />
+    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing &quot;returnHomePage&quot;: go back in browser history and navigate to home page. And &quot;Navigate to&quot;: navigates to google.com.sv">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661744625908</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementing &quot;verifyPageTitle&quot;: Compare the text &quot;My Store&quot; with the actual page title. And &quot;refreshPage&quot;: Reloads the actual page">
+      <created>1661745041443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661745041443</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementing &quot;returnHomePage&quot;: go back in browser history and navigate to home page. And &quot;Navigate to&quot;: navigates to google.com.sv">
+      <created>1661745618605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661745618605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating a test code in MainClass to verify if webdriver is working with all the webbrowsers." />
     <MESSAGE value="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds." />
+    <MESSAGE value="Implementing &quot;verifyPageTitle&quot;: Compare the text &quot;My Store&quot; with the actual page title. And &quot;refreshPage&quot;: Reloads the actual page" />
+    <MESSAGE value="Implementing &quot;returnHomePage&quot;: go back in browser history and navigate to home page. And &quot;Navigate to&quot;: navigates to google.com.sv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing &quot;returnHomePage&quot;: go back in browser history and navigate to home page. And &quot;Navigate to&quot;: navigates to google.com.sv" />
   </component>
 </project>

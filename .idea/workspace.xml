@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing &quot;returnHomePage&quot;: go back in browser history and navigate to home page. And &quot;Navigate to&quot;: navigates to google.com.sv">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing &quot;compareURL&quot;: compares the actual URL with some String value. And &quot;closeBrowser&quot;: close the actual browser window">
       <change beforePath="$PROJECT_DIR$/src/test/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661745618605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementing &quot;compareURL&quot;: compares the actual URL with some String value. And &quot;closeBrowser&quot;: close the actual browser window">
+      <created>1661746131459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661746131459</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +120,7 @@
     <MESSAGE value="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds." />
     <MESSAGE value="Implementing &quot;verifyPageTitle&quot;: Compare the text &quot;My Store&quot; with the actual page title. And &quot;refreshPage&quot;: Reloads the actual page" />
     <MESSAGE value="Implementing &quot;returnHomePage&quot;: go back in browser history and navigate to home page. And &quot;Navigate to&quot;: navigates to google.com.sv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing &quot;returnHomePage&quot;: go back in browser history and navigate to home page. And &quot;Navigate to&quot;: navigates to google.com.sv" />
+    <MESSAGE value="Implementing &quot;compareURL&quot;: compares the actual URL with some String value. And &quot;closeBrowser&quot;: close the actual browser window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing &quot;compareURL&quot;: compares the actual URL with some String value. And &quot;closeBrowser&quot;: close the actual browser window" />
   </component>
 </project>

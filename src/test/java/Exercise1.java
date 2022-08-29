@@ -10,7 +10,6 @@ public class Exercise1 {
     public Exercise1(WebDriver driver, String browserName) {
         this.driver = driver;
         this.browserName = browserName;
-        driver.manage().window().maximize();
     }
 
     public WebDriver getDriver() {
@@ -31,6 +30,7 @@ public class Exercise1 {
 
     public void browserStart(String webPage){
         System.out.println(browserName+": Navigating to page "+webPage);
+        driver.manage().window().maximize();
         driver.get(webPage);
         codePause();
     }

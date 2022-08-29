@@ -36,6 +36,20 @@ public class MainClass {
         // Closes the browser window
         exercise1.closeBrowser();
 
+        System.out.println();
+
+        // Implementing exercise 1 testing on google chrome
+        WebDriver chromeDriver = new ChromeDriver();
+        exercise1.setDriver(chromeDriver);
+        exercise1.setBrowserName("Chrome");
+        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.verifyPageTitle("My Store");
+        exercise1.refreshPage();
+        exercise1.navigateTo("https://google.com.sv");
+        exercise1.returnHomePage();
+        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.closeBrowser();
+
         System.out.println("\n***** Exercise 1 Completed! *****\n");
 
 

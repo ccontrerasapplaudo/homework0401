@@ -50,6 +50,20 @@ public class MainClass {
         exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
         exercise1.closeBrowser();
 
+        System.out.println();
+
+        // Implementing exercise 1 testing on microsoft edge
+        WebDriver edgeDriver = new EdgeDriver();
+        exercise1.setDriver(edgeDriver);
+        exercise1.setBrowserName("Edge");
+        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.verifyPageTitle("My Store");
+        exercise1.refreshPage();
+        exercise1.navigateTo("https://google.com.sv");
+        exercise1.returnHomePage();
+        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+        exercise1.closeBrowser();
+
         System.out.println("\n***** Exercise 1 Completed! *****\n");
 
 

@@ -38,24 +38,41 @@ public class Exercise2 {
     }
 
     public void findElementUsingText(String textToSearch){
-        List<WebElement> link = driver.findElements(By.linkText(textToSearch));
-        if(link.isEmpty()){
-            System.out.println(browserName+" Element found using text");
+        List<WebElement> elementsList = driver.findElements(By.linkText(textToSearch));
+        if(elementsList.isEmpty()){
+            System.out.println(browserName+": Element not found using text");
         }
         else{
-            System.out.println(browserName+" Element not found using text");
+            System.out.println(browserName+": Element found using text");
         }
         codePause();
     }
 
     public void findElementUsingXpath(String usedXpath){
-        List<WebElement> link = driver.findElements(By.xpath(usedXpath));
-        if(link.isEmpty()){
-            System.out.println(browserName+" Element found using Xpath");
+        List<WebElement> elementsList = driver.findElements(By.xpath(usedXpath));
+        if(elementsList.isEmpty()){
+            System.out.println(browserName+": Element not found using Xpath");
         }
         else{
-            System.out.println(browserName+" Element not found using Xpath");
+            System.out.println(browserName+": Element found using Xpath");
         }
+        codePause();
+    }
+
+    public void findElementUsingCSS(String usedCSS){
+        List<WebElement> elementsList = driver.findElements(By.cssSelector(usedCSS));
+        if(elementsList.isEmpty()){
+            System.out.println(browserName+": Element not found using CSS");
+        }
+        else{
+            System.out.println(browserName+": Element found using CSS");
+        }
+        codePause();
+    }
+
+    public void clickUsingXpath(String usedXpath){
+        System.out.println(browserName+": Click on element");
+        driver.findElement(By.xpath(usedXpath)).click();
         codePause();
     }
 

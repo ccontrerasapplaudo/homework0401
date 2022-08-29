@@ -69,6 +69,9 @@ public class MainClass {
         exercise2.browserStart("http://automationpractice.com/index.php");
         exercise2.findElementUsingText("BEST SELLERS");
         exercise2.findElementUsingXpath("//a[@class='blockbestsellers']");
+        exercise2.findElementUsingCSS("a.blockbestsellers");
+        exercise2.clickUsingXpath("//a[@class='blockbestsellers']");
+
         exercise2.closeBrowser();
 
         System.out.println("\n***** Exercise 2 Completed! *****\n");

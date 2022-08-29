@@ -3,6 +3,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import java.util.logging.LogManager;
+
 public class MainClass {
     public static void main(String[] args) {
 
@@ -11,63 +13,65 @@ public class MainClass {
         System.setProperty("webdriver.gecko.driver", "C:\\Users\\carlo\\Desktop\\Selenium Jar and Drivers\\geckodriver.exe");
         System.setProperty("webdriver.edge.driver", "C:\\Users\\carlo\\Desktop\\Selenium Jar and Drivers\\msedgedriver.exe");
 
+        LogManager.getLogManager().reset();
 
         //******************************* Exercise 1 *******************************
 
-        // Create firefox webdriver
-        WebDriver firefoxDriver = new FirefoxDriver();
 
+        // Implementing exercise 1 testing on Firefox
         System.out.println("\n***** Executing Exercise 1: *****\n");
 
-        //Create exercise1 object and sending firefoxDriver
-        Exercise1 exercise1 = new Exercise1(firefoxDriver,"Firefox");
-        //Starts the Firefox browser and navigates to http://opencart.abstracta.us/index.php?route=common/home
-        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
-        // Verifiying page title
-        exercise1.verifyPageTitle("My Store");
-        // Refresh page
-        exercise1.refreshPage();
-        // Navigate to google.com.sv
-        exercise1.navigateTo("https://google.com.sv");
-        // Return to home page
-        exercise1.returnHomePage();
-        // Compare actual URL with http://opencart.abstracta.us/index.php?route=common/home
-        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
-        // Closes the browser window
-        exercise1.closeBrowser();
+        WebDriver firefoxDriver = new FirefoxDriver();
+//        Exercise1 exercise1 = new Exercise1(firefoxDriver,"Firefox");
+//        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+//        exercise1.verifyPageTitle("My Store");
+//        exercise1.refreshPage();
+//        exercise1.navigateTo("https://google.com.sv");
+//        exercise1.returnHomePage();
+//        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+//        exercise1.closeBrowser();
 
         System.out.println();
 
         // Implementing exercise 1 testing on google chrome
-        WebDriver chromeDriver = new ChromeDriver();
-        exercise1.setDriver(chromeDriver);
-        exercise1.setBrowserName("Chrome");
-        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
-        exercise1.verifyPageTitle("My Store");
-        exercise1.refreshPage();
-        exercise1.navigateTo("https://google.com.sv");
-        exercise1.returnHomePage();
-        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
-        exercise1.closeBrowser();
+//        WebDriver chromeDriver = new ChromeDriver();
+//        exercise1.setDriver(chromeDriver);
+//        exercise1.setBrowserName("Chrome");
+//        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+//        exercise1.verifyPageTitle("My Store");
+//        exercise1.refreshPage();
+//        exercise1.navigateTo("https://google.com.sv");
+//        exercise1.returnHomePage();
+//        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+//        exercise1.closeBrowser();
 
         System.out.println();
 
         // Implementing exercise 1 testing on microsoft edge
-        WebDriver edgeDriver = new EdgeDriver();
-        exercise1.setDriver(edgeDriver);
-        exercise1.setBrowserName("Edge");
-        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
-        exercise1.verifyPageTitle("My Store");
-        exercise1.refreshPage();
-        exercise1.navigateTo("https://google.com.sv");
-        exercise1.returnHomePage();
-        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
-        exercise1.closeBrowser();
+//        WebDriver edgeDriver = new EdgeDriver();
+//        exercise1.setDriver(edgeDriver);
+//        exercise1.setBrowserName("Edge");
+//        exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
+//        exercise1.verifyPageTitle("My Store");
+//        exercise1.refreshPage();
+//        exercise1.navigateTo("https://google.com.sv");
+//        exercise1.returnHomePage();
+//        exercise1.compareURL("http://opencart.abstracta.us/index.php?route=common/home");
+//        exercise1.closeBrowser();
 
         System.out.println("\n***** Exercise 1 Completed! *****\n");
 
-
         //******************************* Exercise 2 *******************************
+
+        System.out.println("\n***** Executing Exercise 2: *****\n");
+
+        Exercise2 exercise2 = new Exercise2(firefoxDriver,"Firefox");
+        exercise2.browserStart("http://automationpractice.com/index.php");
+        exercise2.findElementUsingText("BEST SELLERS");
+        exercise2.findElementUsingXpath("//a[@class='blockbestsellers']");
+        exercise2.closeBrowser();
+
+        System.out.println("\n***** Exercise 2 Completed! *****\n");
 
     }
 }

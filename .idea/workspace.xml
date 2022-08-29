@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Implementing exercise1 test on chrome web browser">
+    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Exercise 1 Completed!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exercise2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Exercise1_and_Exercise2" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/carlo/IdeaProjects/SeleniumProjectMaven"
+    "last_opened_file_path": "C:/Users/carlo/IdeaProjects/homework0401"
   }
 }]]></component>
   <component name="RunManager">
@@ -53,6 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>

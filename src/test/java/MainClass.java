@@ -100,7 +100,7 @@ public class MainClass {
 
         System.out.println();
 
-        // Implementing exercise 2 testing on microsoft edge
+        // Implementing exercise 2 testing on microsoft edge !
         WebDriver edgeDriver2 = new EdgeDriver();
         exercise2.setDriver(edgeDriver2);
         exercise2.setBrowserName("Edge");

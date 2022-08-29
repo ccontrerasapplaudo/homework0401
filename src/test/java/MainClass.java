@@ -14,14 +14,20 @@ public class MainClass {
 
         //******************************* Exercise 1 *******************************
 
-        System.out.println("Executing exercise 1: \n");
         // Create firefox webdriver
         WebDriver firefoxDriver = new FirefoxDriver();
+
+        System.out.println("\n***** Executing Exercise 1: *****\n");
         //Create exercise1 object and sending firefoxDriver
         Exercise1 exercise1 = new Exercise1(firefoxDriver,"Firefox");
         //Starts the Firefox browser and navigates to http://opencart.abstracta.us/index.php?route=common/home
         exercise1.browserStart("http://opencart.abstracta.us/index.php?route=common/home");
-        System.out.println("\nExercise 1 Completed!\n");
+        // Verifiying page title
+        exercise1.verifyPageTitle("My Store");
+        // Refresh page
+        exercise1.refreshPage();
+
+        System.out.println("\n***** Exercise 1 Completed! *****\n");
 
 
         //******************************* Exercise 2 *******************************

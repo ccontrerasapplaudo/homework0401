@@ -36,6 +36,24 @@ public class Exercise1 {
         codePause();
     }
 
+    public void verifyPageTitle(String pageTitle){
+        System.out.println(browserName+": Verifying page title");
+
+        if(driver.getTitle().contains(pageTitle)){
+            System.out.println(browserName+": The title is correct");
+        }
+        else{
+            System.out.println(browserName+": The title is incorrect");
+        }
+        codePause();
+    }
+
+    public void refreshPage(){
+        System.out.println(browserName+": Refresh page");
+        driver.navigate().refresh();
+        codePause();
+    }
+
     public void codePause(){
         try {
             Thread.sleep(2000);

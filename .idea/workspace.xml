@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Creating a test code in MainClass to verify if webdriver is working with all the webbrowsers.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c0e6bdc0-1afe-4451-93b3-a2795a97f6fa" name="Changes" comment="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds.">
       <change beforePath="$PROJECT_DIR$/src/test/java/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exercise1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClass.java" afterDir="false" />
     </list>
@@ -75,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661733698375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds.">
+      <created>1661744625908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661744625908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating a test code in MainClass to verify if webdriver is working with all the webbrowsers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating a test code in MainClass to verify if webdriver is working with all the webbrowsers." />
+    <MESSAGE value="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Exercise1 Class with methods &quot;browserStart&quot;: open the browser. And method &quot;codePause&quot;: to pause code execution and pause it 2 seconds." />
   </component>
 </project>
